@@ -1,14 +1,14 @@
 ######################################################################
-Author: Alex Kim
-Date: 2024-04-26
-
-This script parses and converts encoded csv data into decoded SPSS
-file with variable labels derived from the encoded file.
-
-Usage:
-- Ensure the required libraries are installed in current R env
-- Update the 3 variables for input/output file paths
-- Run the script
+# Author: Alex Kim
+# Date: 2024-04-26
+#
+# This script parses and converts encoded csv data into decoded SPSS
+# file with variable labels derived from the encoded file.
+#
+# Usage:
+# - Ensure the required libraries are installed in current R env
+# - Update the 3 variables for input/output file paths
+# - Run the script
 ######################################################################
 
 library(readr)
