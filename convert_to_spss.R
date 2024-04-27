@@ -20,7 +20,7 @@ suppressPackageStartupMessages({
 
 data_dict_path <- './data/data_dictionary.csv'
 encoded_data_path <- './data/data_encoded_04_24_2024.csv'
-spss_output_path <- './data/spss-output_04_24_2024.sav'
+spss_output_path <- './data/spss-output_04_24_2024-v3.sav'
 
 ######################################################################
 
@@ -59,54 +59,34 @@ add_var_labels <- function(data, encoded_data_path) {
     return (data)
 }
 
-convert_categorical_cols_to_factors <- function(data) {
-    # Define columns to exclude from being converted to factors
-    exclude_cols <- c("ResponseId", "RecordedDate", "institution_institutionName",
-                      "institution_totalEnrollment", "institution_undergraduateEnrollment")
-
-    # Get all categorical col names that are not in the exclude list
-    cat_cols <- names(data)[sapply(data, is.numeric) & !names(data) %in% exclude_cols]
-
-    # Loop through the cat_cols and convert each to a factor
-    for (col in cat_cols) {
-        data[[col]] <- factor(data[[col]])
-    }
-
-    return(data)
-}
-
 # Parse the data dict for the encoded variable values
 # and add as value labels for SPSS file.
-add_factor_labels <- function(data, data_dict) {
-    unique_vars <- unique(data_dict$variable)
+get_value_labels <- function(data_dict) {
+  # Filter out duplicate value-label pairs
+  data_dict <- data_dict[!duplicated(data_dict[c('variable', 'value')]), ]
 
-    for (var in unique_vars) {
-        if (var %in% names(data)) {
-            var_dict <- filter(data_dict, variable == var)
+  # Transform the data dictionary into a list of value labels
+  value_labels_list <- split(data_dict, data_dict$variable)
 
-            # Ensure levels and labels are character vectors
-            levels <- as.character(var_dict$label)
-            labels <- as.character(var_dict$value)
+  # Transform into a named vector for each variable
+  value_labels <- lapply(value_labels_list, function(x) {
+    setNames(x$value, x$label)
+  })
 
-            # Truncate labels if they exceed 120 characters bc of SPSS rules
-            truncated_labels <- sapply(labels, function(label) {
-                if (nchar(label) > 120) {
-                    new_label <- paste(substr(label, 1, 116), "...")
-                    return(new_label)
-                } else {
-                    return(label)
-                }
-            })
+  return(value_labels)
+}
 
-            # Convert column to factor with appropriate levels and labels
-            # Ensure that labels are correctly aligned with levels
-            data[[var]] <- factor(data[[var]], levels = levels, labels = truncated_labels)
-        }
+# Function to add value labels to the data
+add_value_labels <- function(data, data_dict_path) {
+    value_labels <- get_value_labels(data_dict_path)
+    for(var in names(value_labels)) {
+        # Convert the list of labels to a named vector
+        labels_vector <- value_labels[[var]]
+
+        data[[var]] <- labelled(as.character(data[[var]]), labels = labels_vector)
     }
     return(data)
 }
-
-
 
 main <- function(encoded_dath_path, data_dict_path, spss_output_path) {
     # Import the encoded data and the data dict
@@ -114,18 +94,16 @@ main <- function(encoded_dath_path, data_dict_path, spss_output_path) {
     data <- result$data
     data_dict <- result$data_dict
 
-    # Convert categorical cols to factor type
-    data <- convert_categorical_cols_to_factors(data)
-
     # Add variable labels for SPSS
     data <- add_var_labels(data, encoded_data_path)
 
     # Add factor/value labels for SPSS
-    data <- add_factor_labels(data, data_dict)
+    data <- add_value_labels(data, data_dict)
 
     # Export the processed data to an SPSS file
     write_sav(data, spss_output_path)
     print(paste("Data exported successfully to", spss_output_path))
+    return (data)
 }
 
-main(encoded_data_path, data_dict_path, spss_output_path)
+df <- main(encoded_data_path, data_dict_path, spss_output_path)
