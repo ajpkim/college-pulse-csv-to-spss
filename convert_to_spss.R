@@ -65,6 +65,9 @@ get_value_labels <- function(data_dict) {
   # Filter out duplicate value-label pairs
   data_dict <- data_dict[!duplicated(paste(data_dict$variable, data_dict$label)), fromLast = TRUE]
 
+  # Cast 'label' column to integers for nicer output in SPSS
+  data_dict$label <- as.integer(data_dict$label)
+
   # Transform the data dictionary into a list of value labels
   value_labels_list <- split(data_dict, data_dict$variable)
 
