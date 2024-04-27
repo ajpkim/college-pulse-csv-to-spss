@@ -86,7 +86,8 @@ add_value_labels <- function(data, data_dict_path) {
         # Convert the list of labels to a named vector
         labels_vector <- value_labels[[var]]
 
-        data[[var]] <- labelled(data[[var]], labels = labels_vector)
+	# Try casting to int here for pretty SPSS labels
+        data[[var]] <- labelled(as.integer(data[[var]]), labels = labels_vector)
     }
     return(data)
 }
