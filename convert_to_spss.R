@@ -10,11 +10,11 @@
 # - Update the 3 variables for input/output file paths
 # - Run the script
 ######################################################################
-
-library(readr)
-library(dplyr)
-library(haven)
-
+suppressPackageStartupMessages({
+    library(readr)
+    library(dplyr)
+    library(haven)
+})
 ######################################################################
 # User defined variables
 
@@ -127,7 +127,7 @@ main <- function(encoded_dath_path, data_dict_path, spss_output_path) {
     write_sav(data, spss_output_path)
     print(paste("Data exported successfully to", spss_output_path))
 
-    return(data)
+    # return(data)
 }
 
 main(encoded_data_path, data_dict_path, spss_output_path)
