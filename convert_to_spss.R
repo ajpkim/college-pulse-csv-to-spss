@@ -20,7 +20,7 @@ suppressPackageStartupMessages({
 
 data_dict_path <- './data/data_dictionary.csv'
 encoded_data_path <- './data/data_encoded_04_24_2024.csv'
-spss_output_path <- './data/spss-output_04_24_2024-v3.sav'
+spss_output_path <- './data/spss-output_04_24_2024-v4.sav'
 
 ######################################################################
 
@@ -63,14 +63,14 @@ add_var_labels <- function(data, encoded_data_path) {
 # and add as value labels for SPSS file.
 get_value_labels <- function(data_dict) {
   # Filter out duplicate value-label pairs
-  data_dict <- data_dict[!duplicated(data_dict[c('variable', 'value')]), ]
+  data_dict <- data_dict[!duplicated(paste(data_dict$variable, data_dict$label)), fromLast = TRUE]
 
   # Transform the data dictionary into a list of value labels
   value_labels_list <- split(data_dict, data_dict$variable)
 
   # Transform into a named vector for each variable
   value_labels <- lapply(value_labels_list, function(x) {
-    setNames(x$value, x$label)
+    setNames(x$label, x$value)
   })
 
   return(value_labels)
@@ -83,7 +83,7 @@ add_value_labels <- function(data, data_dict_path) {
         # Convert the list of labels to a named vector
         labels_vector <- value_labels[[var]]
 
-        data[[var]] <- labelled(as.character(data[[var]]), labels = labels_vector)
+        data[[var]] <- labelled(data[[var]], labels = labels_vector)
     }
     return(data)
 }
@@ -94,16 +94,15 @@ main <- function(encoded_dath_path, data_dict_path, spss_output_path) {
     data <- result$data
     data_dict <- result$data_dict
 
-    # Add variable labels for SPSS
-    data <- add_var_labels(data, encoded_data_path)
-
     # Add factor/value labels for SPSS
     data <- add_value_labels(data, data_dict)
+
+    # Add variable labels for SPSS
+    data <- add_var_labels(data, encoded_data_path)
 
     # Export the processed data to an SPSS file
     write_sav(data, spss_output_path)
     print(paste("Data exported successfully to", spss_output_path))
-    return (data)
 }
 
-df <- main(encoded_data_path, data_dict_path, spss_output_path)
+main(encoded_data_path, data_dict_path, spss_output_path)
