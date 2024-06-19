@@ -18,9 +18,9 @@ suppressPackageStartupMessages({
 ######################################################################
 # User defined variables
 
-data_dict_path <- './data/data_dictionary.csv'
-encoded_data_path <- './data/data_encoded_04_24_2024.csv'
-spss_output_path <- './data/spss-output_04_24_2024-v4.sav'
+data_dict_path <- './data/script_updates/v3/data_dict.csv'
+encoded_data_path <- './data/script_updates/v3/data_encoded_cleaned.csv'
+spss_output_path <- './data/script_updates/v3/output.sav'
 
 ######################################################################
 
@@ -82,11 +82,18 @@ get_value_labels <- function(data_dict) {
 # Function to add value labels to the data
 add_value_labels <- function(data, data_dict) {
     value_labels <- get_value_labels(data_dict)
+
     for(var in names(value_labels)) {
+        # Check if the variable exists in the data
+        if (!var %in% names(data)) {
+            print(paste("Data dict variable", var, "not found in data. Skipping."))
+            next
+        }
+
         # Convert the list of labels to a named vector
         labels_vector <- value_labels[[var]]
 
-	# Try casting to int here for pretty SPSS labels
+	# Cast to int here for pretty SPSS labels
         data[[var]] <- labelled(as.integer(data[[var]]), labels = labels_vector)
     }
     return(data)
