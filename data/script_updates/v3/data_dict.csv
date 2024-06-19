@@ -1,0 +1,525 @@
+variable,label,value
+demographics_studentType,1,undergrad student
+age,-99,other
+financialaid,2,no
+financialaid,1,yes
+financialaid,3,other
+gender,1,male
+gender,4,agender
+gender,2,female
+gender,5,genderQueerGenderFluid
+gender,3,nonbinary
+gender,6,unsure
+geography,1,New England
+geography,2,Mid-Atlantic
+geography,4,South
+geography,3,Midwest
+geography,5,West
+geography,7,International
+geography,8,other
+geography,6,Non-Continental
+highschool,1,public
+highschool,5,private
+highschool,6,homeschool
+highschool,3,public magnet
+highschool,4,parochial
+highschool,2,public charter
+highschool,7,other
+major1,27,Engineering Sciences
+major1,11,Physics and Astronomy
+major1,25,Economics
+major1,22,Development Studies
+major1,41,International Relations
+major1,19,Computer Science
+major1,47,Mathematics
+major1,1,Accounting
+major1,28,English
+major1,15,Chemistry
+major1,46,Marketing
+major1,51,Nursing
+major1,14,Business
+major1,13,Biological Sciences
+major1,5,Anthropology
+major1,48,Music
+major1,54,Political Science
+major1,34,Finance
+major1,44,Law/Criminology
+major1,12,Biochemistry and Molecular Biology
+major1,74,other
+major1,26,Education
+major1,8,Art History
+major1,72,Visual Arts
+major1,57,Psychological and Brain Sciences
+major1,50,Neuroscience
+major1,18,Communication
+major1,56,Pre-Medical
+major1,3,Agricultural/Food Sciences
+major1,35,Fine Arts
+major1,59,Public Policy
+major1,29,Environmental Studies
+major1,58,Public Health
+major1,39,History
+major1,2,African/Afr-American Studies
+major1,65,Sociology
+major1,7,Architecture
+major1,20,Dance
+major1,45,Linguistics
+major1,52,Philosophy
+major1,10,Asian/Mideast Studies
+major1,21,Data Science
+major1,70,Undecided
+major1,4,Animal Science
+major1,17,Cognitive Science
+major1,53,Physical Education
+major1,66,Spanish and Portuguese
+major1,32,Fashion
+major1,23,Digital Media Design
+major1,68,Studio Art
+major1,71,Urban Studies
+major1,73,Women’s and Gender Studies (and Sexuality)
+major1,63,Robotics and Intelligent Systems
+major1,16,Classics
+major1,33,Film and Media Studies
+major1,24,Earth Sciences
+major1,69,Theater
+major1,36,French and Italian
+major1,43,Lat Am/Latino/Carib Studies
+major1,42,Jewish Studies
+major1,37,Geography
+major1,9,Asian/Mideast Lang & Lit
+major1,6,Archaeology
+major1,67,Statistics
+major1,40,Hotel Administration
+major1,38,German Studies
+major1,30,Ethnicity and Race Studies
+major1,62,Religion
+major1,61,Real Estate
+major1,64,Russian
+major1,31,European Cultural Studies
+major1,55,Portuguese and Brazilian Studies
+major1,49,Native American Studies
+major3,46,Marketing
+major3,27,Engineering Sciences
+major3,63,Robotics and Intelligent Systems
+major3,47,Mathematics
+major3,48,Music
+major3,15,Chemistry
+major3,26,Education
+major3,71,Urban Studies
+major3,61,Real Estate
+major3,54,Political Science
+major3,74,other
+major3,41,International Relations
+major3,43,Lat Am/Latino/Carib Studies
+major3,51,Nursing
+major3,9,Asian/Mideast Lang & Lit
+major3,12,Biochemistry and Molecular Biology
+major3,34,Finance
+major3,59,Public Policy
+major3,13,Biological Sciences
+major3,56,Pre-Medical
+major3,73,Women’s and Gender Studies (and Sexuality)
+major3,65,Sociology
+major3,4,Animal Science
+major3,72,Visual Arts
+major3,37,Geography
+major3,44,Law/Criminology
+major3,57,Psychological and Brain Sciences
+major3,36,French and Italian
+major3,29,Environmental Studies
+major3,66,Spanish and Portuguese
+major3,70,Undecided
+major3,25,Economics
+major3,7,Architecture
+major3,17,Cognitive Science
+major3,10,Asian/Mideast Studies
+major3,24,Earth Sciences
+major3,67,Statistics
+major3,14,Business
+major3,5,Anthropology
+major3,58,Public Health
+major3,50,Neuroscience
+major3,64,Russian
+major3,39,History
+major3,6,Archaeology
+major3,3,Agricultural/Food Sciences
+major3,69,Theater
+major3,21,Data Science
+major3,11,Physics and Astronomy
+major3,62,Religion
+major3,52,Philosophy
+major3,68,Studio Art
+major3,31,European Cultural Studies
+major3,8,Art History
+major3,49,Native American Studies
+major3,33,Film and Media Studies
+major3,35,Fine Arts
+major3,42,Jewish Studies
+major3,22,Development Studies
+major3,55,Portuguese and Brazilian Studies
+major3,32,Fashion
+major3,40,Hotel Administration
+major3,2,African/Afr-American Studies
+major3,16,Classics
+major3,53,Physical Education
+major3,18,Communication
+major3,28,English
+major3,19,Computer Science
+major3,1,Accounting
+major3,30,Ethnicity and Race Studies
+major3,38,German Studies
+major3,45,Linguistics
+major3,20,Dance
+major3,23,Digital Media Design
+major2,47,Mathematics
+major2,65,Sociology
+major2,14,Business
+major2,25,Economics
+major2,28,English
+major2,58,Public Health
+major2,63,Robotics and Intelligent Systems
+major2,56,Pre-Medical
+major2,19,Computer Science
+major2,27,Engineering Sciences
+major2,45,Linguistics
+major2,57,Psychological and Brain Sciences
+major2,72,Visual Arts
+major2,13,Biological Sciences
+major2,21,Data Science
+major2,17,Cognitive Science
+major2,74,other
+major2,52,Philosophy
+major2,54,Political Science
+major2,39,History
+major2,48,Music
+major2,5,Anthropology
+major2,12,Biochemistry and Molecular Biology
+major2,10,Asian/Mideast Studies
+major2,62,Religion
+major2,7,Architecture
+major2,61,Real Estate
+major2,29,Environmental Studies
+major2,34,Finance
+major2,46,Marketing
+major2,51,Nursing
+major2,68,Studio Art
+major2,64,Russian
+major2,30,Ethnicity and Race Studies
+major2,26,Education
+major2,35,Fine Arts
+major2,66,Spanish and Portuguese
+major2,70,Undecided
+major2,50,Neuroscience
+major2,53,Physical Education
+major2,69,Theater
+major2,44,Law/Criminology
+major2,2,African/Afr-American Studies
+major2,23,Digital Media Design
+major2,73,Women’s and Gender Studies (and Sexuality)
+major2,59,Public Policy
+major2,8,Art History
+major2,6,Archaeology
+major2,15,Chemistry
+major2,33,Film and Media Studies
+major2,67,Statistics
+major2,9,Asian/Mideast Lang & Lit
+major2,18,Communication
+major2,40,Hotel Administration
+major2,41,International Relations
+major2,4,Animal Science
+major2,36,French and Italian
+major2,32,Fashion
+major2,11,Physics and Astronomy
+major2,16,Classics
+major2,3,Agricultural/Food Sciences
+major2,38,German Studies
+major2,43,Lat Am/Latino/Carib Studies
+major2,71,Urban Studies
+major2,24,Earth Sciences
+major2,37,Geography
+major2,20,Dance
+major2,49,Native American Studies
+major2,22,Development Studies
+major2,42,Jewish Studies
+major2,1,Accounting
+major2,55,Portuguese and Brazilian Studies
+major2,31,European Cultural Studies
+orientation,1,Straight (Heterosexual)
+orientation,5,Asexual or Aromantic
+orientation,9,Questioning
+orientation,2,Gay/Lesbian
+orientation,3,Bisexual
+orientation,7,queer
+orientation,11,"Another sexual orientation, please specify:"
+orientation,10,unsure
+orientation,4,pansexual
+orientation,8,Fluid
+orientation,6,Same-gender-loving
+politicalleaning,5,"independent, lean republican"
+politicalleaning,3,"independent, lean democrat"
+politicalleaning,7,strong republican
+politicalleaning,4,independent
+politicalleaning,6,weak republican
+politicalleaning,2,weak democrat
+politicalleaning,1,strong democrat
+politicalleaning,8,something else
+religion,2,catholic
+religion,7,atheist
+religion,9,nothing
+religion,6,muslim
+religion,10,christian
+religion,12,hindu
+religion,5,jewish
+religion,1,protestant
+religion,8,agnostic
+religion,13,other
+religion,4,orthodox
+religion,11,buddhist
+religion,3,mormon
+socioeconomicstatus,2,upper-middle class
+socioeconomicstatus,4,working class
+socioeconomicstatus,3,middle class
+socioeconomicstatus,5,lower class
+socioeconomicstatus,1,upper class
+voterregistration,2,"No, not registered"
+voterregistration,1,"Yes, registered to vote"
+demographics_raceOne,3,hispanic/latino
+demographics_raceOne,4,american indian
+demographics_raceOne,7,white
+demographics_raceOne,1,asian
+demographics_raceOne,5,middle eastern
+demographics_raceOne,2,black or african-american
+demographics_raceOne,8,another race
+demographics_raceOne,10,other
+demographics_raceOne,6,native hawaiian
+demographics_raceTwo,7,white
+demographics_raceTwo,3,hispanic/latino
+demographics_raceTwo,4,american indian
+demographics_raceTwo,6,native hawaiian
+demographics_raceTwo,2,black or african-american
+demographics_raceTwo,5,middle eastern
+demographics_raceTwo,10,other
+demographics_raceTwo,8,another race
+demographics_raceThree,8,another race
+demographics_raceThree,7,white
+demographics_raceThree,3,hispanic/latino
+demographics_raceThree,4,american indian
+demographics_raceThree,10,other
+demographics_raceThree,6,native hawaiian
+demographics_raceThree,5,middle eastern
+race,3,hispanic/latino
+race,8,twoOrMoreRaces
+race,7,white
+race,1,asian
+race,5,middle eastern
+race,2,black or african-american
+race,4,american indian
+race,10,other
+race,6,native hawaiian
+demographics_politicalIdeology,4,"Moderate, middle-of-the-road"
+demographics_politicalIdeology,1,Very liberal
+demographics_politicalIdeology,8,Very conservative
+demographics_politicalIdeology,11,Haven’t thought much about this
+demographics_politicalIdeology,5,Slightly conservative
+demographics_politicalIdeology,9,Democratic Socialist
+demographics_politicalIdeology,3,Slightly liberal
+demographics_politicalIdeology,7,Somewhat conservative
+demographics_politicalIdeology,2,Somewhat liberal
+demographics_politicalIdeology,10,Libertarian
+demographics_politicalIdeology,12,Something else
+q18,4,Very clear
+q18,2,Not very clear
+q18,3,Somewhat clear
+q18,5,Extremely clear
+q18,1,Not at all clear
+q19,3,Somewhat likely
+q19,2,Not very likely
+q19,4,Very likely
+q19,5,Extremely likely
+q19,1,Not at all likely
+q6,1,Very uncomfortable
+q6,2,Somewhat uncomfortable
+q6,3,Somewhat comfortable
+q6,4,Very comfortable
+q7,1,Very uncomfortable
+q7,3,Somewhat comfortable
+q7,2,Somewhat uncomfortable
+q7,4,Very comfortable
+q8,2,Somewhat uncomfortable
+q8,3,Somewhat comfortable
+q8,1,Very uncomfortable
+q8,4,Very comfortable
+q9,2,Somewhat uncomfortable
+q9,3,Somewhat comfortable
+q9,1,Very uncomfortable
+q9,4,Very comfortable
+q10,2,Somewhat uncomfortable
+q10,1,Very uncomfortable
+q10,4,Very comfortable
+q10,3,Somewhat comfortable
+q11,2,Rarely
+q11,4,"Fairly often, a couple of times a week"
+q11,3,"Occasionally, once or twice a month"
+q11,1,Never
+q11,5,"Very often, nearly every day"
+q26,2,Rarely
+q26,5,"Very often, nearly every day"
+q26,3,"Occasionally, once or twice a month"
+q26,4,"Fairly often, a couple of times a week"
+q26,1,Never
+q27,1,Never
+q27,5,"Very often, nearly every day"
+q27,3,"Occasionally, once or twice a month"
+q27,4,"Fairly often, a couple of times a week"
+q27,2,Rarely
+q28,2,Rarely
+q28,5,"Very often, nearly every day"
+q28,3,"Occasionally, once or twice a month"
+q28,4,"Fairly often, a couple of times a week"
+q28,1,Never
+q15,3,Rarely acceptable
+q15,2,Sometimes acceptable
+q15,4,Never acceptable
+q15,1,Always acceptable
+q16,4,Never acceptable
+q16,3,Rarely acceptable
+q16,2,Sometimes acceptable
+q16,1,Always acceptable
+q17,4,Never acceptable
+q17,3,Rarely acceptable
+q17,2,Sometimes acceptable
+q17,1,Always acceptable
+q20,2,Probably should not allow this speaker
+q20,3,Probably should allow this speaker
+q20,1,Definitely should not allow this speaker
+q20,4,Definitely should allow this speaker
+q21,3,Probably should allow this speaker
+q21,4,Definitely should allow this speaker
+q21,2,Probably should not allow this speaker
+q21,1,Definitely should not allow this speaker
+q22,2,Probably should not allow this speaker
+q22,3,Probably should allow this speaker
+q22,1,Definitely should not allow this speaker
+q22,4,Definitely should allow this speaker
+Q9.4,2,Probably should not allow this speaker
+Q9.4,4,Definitely should allow this speaker
+Q9.4,3,Probably should allow this speaker
+Q9.4,1,Definitely should not allow this speaker
+Q9.5,1,Definitely should not allow this speaker
+Q9.5,3,Probably should allow this speaker
+Q9.5,4,Definitely should allow this speaker
+Q9.5,2,Probably should not allow this speaker
+Q9.6,2,Probably should not allow this speaker
+Q9.6,3,Probably should allow this speaker
+Q9.6,1,Definitely should not allow this speaker
+Q9.6,4,Definitely should allow this speaker
+Q9.7,2,Probably should not allow this speaker
+Q9.7,3,Probably should allow this speaker
+Q9.7,1,Definitely should not allow this speaker
+Q9.7,4,Definitely should allow this speaker
+Q9.8,3,Probably should allow this speaker
+Q9.8,1,Definitely should not allow this speaker
+Q9.8,4,Definitely should allow this speaker
+Q9.8,2,Probably should not allow this speaker
+q30_1,1,Abortion
+q30_2,1,Affirmative action
+q30_3,1,China
+q30_4,1,Climate change
+q30_5,1,Crime
+q30_6,1,Economic inequality
+q30_7,1,Freedom of speech
+q30_8,1,Gay rights
+q30_9,1,Gender inequality
+q30_10,1,Gun control
+Q10.1_11,1,Hate speech
+q30_11,1,Immigration
+q30_13,1,The Israeli/Palestinian conflict
+Q10.1_14,1,The Presidential Election
+q30_14,1,Police misconduct
+q30_15,1,Racial inequality
+q30_16,1,Religion
+q30_17,1,Sexual assault
+q30_18,1,The Supreme Court
+q30_19,1,Transgender rights
+q30_21,1,None of the above
+q31_1,1,Asian student groups
+q31_2,1,Black or African American student groups
+q31_3,1,Hispanic/Latino student groups
+q31_4,1,Sororities or fraternities
+q31_5,1,LGBTQ+ student groups
+q31_6,1,Christian student groups
+q31_7,1,Jewish student groups
+q31_8,1,Muslim/Islamic student groups
+q31_9,1,Hindu student groups
+q31_10,1,Atheist/agnostic/secular student groups
+q31_11,1,Republican student groups
+q31_12,1,Democratic student groups
+q31_13,1,Politically conservative student groups
+q31_14,1,Politically liberal student groups
+q31_15,1,Black Lives Matter student groups
+q31_16,1,Pro-Israeli student groups
+q31_17,1,Pro-Palestinian student groups
+q31_18,1,Other student groups
+q31_19,1,None of the above
+q1,4,"Most of the time, nearly every day"
+q1,3,About half the time
+q1,2,Less than half the time
+q1,1,Never
+q1,5,Always
+q2,2,Less than half the time
+q2,3,About half the time
+q2,1,Never
+q2,4,"Most of the time, nearly every day"
+q2,5,Always
+q3,2,Less than half the time
+q3,5,Always
+q3,3,About half the time
+q3,4,"Most of the time, nearly every day"
+q3,1,Never
+q4,3,About half the time
+q4,1,Never
+q4,4,"Most of the time, nearly every day"
+q4,2,Less than half the time
+q4,5,Always
+q5,5,Always
+q5,3,About half the time
+q5,4,"Most of the time, nearly every day"
+q5,2,Less than half the time
+q5,1,Never
+Q13.1,2,Rarely
+Q13.1,3,"Occasionally, once or twice a month"
+Q13.1,1,Never
+Q13.1,4,"Fairly often, a couple times a week"
+Q13.1,5,"Very often, nearly every day"
+Q13.2,2,No
+Q13.2,1,Yes
+Q13.3,3,Too harsh
+Q13.3,2,About right
+Q13.3,1,Too lenient
+Q13.4,2,Rarely
+Q13.4,3,"Occasionally, once or twice a month"
+Q13.4,1,Never
+Q13.4,4,"Fairly often, a couple times a week"
+Q13.4,5,"Very often, nearly every day"
+Q13.5,2,Palestinians
+Q13.5,3,Both equally
+Q13.5,5,Don’t know
+Q13.5,4,Neither
+Q13.5,1,Israelis
+Q13.6,3,Both equally
+Q13.6,1,Israel
+Q13.6,4,Don’t know
+Q13.6,2,Hamas
+Q13.8,2,Less than once a year
+Q13.8,1,Never
+Q13.8,7,About weekly
+Q13.8,3,Once or twice a year
+Q13.8,6,2-3 times a month
+Q13.8,4,Several times a year
+Q13.8,8,Weekly
+Q13.8,9,Several times a week
+Q13.8,5,Once a month
+Q13.9,2,No
+Q13.9,1,Yes
+Q13.10,2,No
+Q13.10,1,Yes

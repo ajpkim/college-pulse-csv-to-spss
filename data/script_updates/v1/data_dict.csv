@@ -1,0 +1,398 @@
+variable,label,value
+demographics_age,-99,other
+demographics_athlete,3,none
+demographics_athlete,2,club
+demographics_athlete,1,varsity
+demographics_athlete,4,other
+demographics_financialAid,2,no
+demographics_financialAid,1,yes
+demographics_financialAid,3,other
+demographics_gender,3,nonbinary
+demographics_gender,2,female
+demographics_gender,1,male
+demographics_gender,6,unsure
+demographics_gender,4,agender
+demographics_gender,5,genderQueerGenderFluid
+demographics_highschool,2,public charter
+demographics_highschool,1,public
+demographics_highschool,5,private
+demographics_highschool,3,public magnet
+demographics_highschool,4,parochial
+demographics_highschool,7,other
+demographics_highschool,6,homeschool
+demographics_major_one,3,Agricultural/Food Sciences
+demographics_major_one,72,Visual Arts
+demographics_major_one,19,Computer Science
+demographics_major_one,57,Psychological and Brain Sciences
+demographics_major_one,50,Neuroscience
+demographics_major_one,7,Architecture
+demographics_major_one,12,Biochemistry and Molecular Biology
+demographics_major_one,14,Business
+demographics_major_one,4,Animal Science
+demographics_major_one,5,Anthropology
+demographics_major_one,25,Economics
+demographics_major_one,2,African/Afr-American Studies
+demographics_major_one,13,Biological Sciences
+demographics_major_one,27,Engineering Sciences
+demographics_major_one,1,Accounting
+demographics_major_one,15,Chemistry
+demographics_major_one,68,Studio Art
+demographics_major_one,44,Law/Criminology
+demographics_major_one,58,Public Health
+demographics_major_one,46,Marketing
+demographics_major_one,17,Cognitive Science
+demographics_major_one,21,Data Science
+demographics_major_one,39,History
+demographics_major_one,74,other
+demographics_major_one,28,English
+demographics_major_one,51,Nursing
+demographics_major_one,41,International Relations
+demographics_major_one,8,Art History
+demographics_major_one,52,Philosophy
+demographics_major_one,54,Political Science
+demographics_major_one,53,Physical Education
+demographics_major_one,40,Hotel Administration
+demographics_major_one,18,Communication
+demographics_major_one,65,Sociology
+demographics_major_one,35,Fine Arts
+demographics_major_one,70,Undecided
+demographics_major_one,34,Finance
+demographics_major_one,47,Mathematics
+demographics_major_one,33,Film and Media Studies
+demographics_major_one,11,Physics and Astronomy
+demographics_major_one,29,Environmental Studies
+demographics_major_one,26,Education
+demographics_major_one,56,Pre-Medical
+demographics_major_one,69,Theater
+demographics_major_one,32,Fashion
+demographics_major_one,10,Asian/Mideast Studies
+demographics_major_one,9,Asian/Mideast Lang & Lit
+demographics_major_one,24,Earth Sciences
+demographics_major_one,48,Music
+demographics_major_one,36,French and Italian
+demographics_major_one,6,Archaeology
+demographics_major_one,38,German Studies
+demographics_major_one,23,Digital Media Design
+demographics_major_one,71,Urban Studies
+demographics_major_one,66,Spanish and Portuguese
+demographics_major_one,64,Russian
+demographics_major_one,62,Religion
+demographics_major_one,20,Dance
+demographics_major_one,22,Development Studies
+demographics_major_one,73,Women’s and Gender Studies (and Sexuality)
+demographics_major_one,45,Linguistics
+demographics_major_one,60,Radiography
+demographics_major_one,16,Classics
+demographics_major_three,4,Animal Science
+demographics_major_three,15,Chemistry
+demographics_major_three,9,Asian/Mideast Lang & Lit
+demographics_major_three,44,Law/Criminology
+demographics_major_three,47,Mathematics
+demographics_major_three,56,Pre-Medical
+demographics_major_three,5,Anthropology
+demographics_major_three,54,Political Science
+demographics_major_three,28,English
+demographics_major_three,22,Development Studies
+demographics_major_three,65,Sociology
+demographics_major_three,46,Marketing
+demographics_major_three,71,Urban Studies
+demographics_major_three,20,Dance
+demographics_major_three,70,Undecided
+demographics_major_three,25,Economics
+demographics_major_three,66,Spanish and Portuguese
+demographics_major_three,3,Agricultural/Food Sciences
+demographics_major_three,6,Archaeology
+demographics_major_three,17,Cognitive Science
+demographics_major_three,57,Psychological and Brain Sciences
+demographics_major_three,16,Classics
+demographics_major_three,62,Religion
+demographics_major_three,27,Engineering Sciences
+demographics_major_three,51,Nursing
+demographics_major_three,58,Public Health
+demographics_major_three,19,Computer Science
+demographics_major_three,59,Public Policy
+demographics_major_three,26,Education
+demographics_major_three,74,other
+demographics_major_three,50,Neuroscience
+demographics_major_three,34,Finance
+demographics_major_three,8,Art History
+demographics_major_three,36,French and Italian
+demographics_major_three,67,Statistics
+demographics_major_three,69,Theater
+demographics_major_three,33,Film and Media Studies
+demographics_major_three,14,Business
+demographics_major_three,39,History
+demographics_major_three,21,Data Science
+demographics_major_three,72,Visual Arts
+demographics_major_three,29,Environmental Studies
+demographics_major_three,45,Linguistics
+demographics_major_three,24,Earth Sciences
+demographics_major_three,68,Studio Art
+demographics_major_three,32,Fashion
+demographics_major_three,73,Women’s and Gender Studies (and Sexuality)
+demographics_major_three,10,Asian/Mideast Studies
+demographics_major_three,18,Communication
+demographics_major_three,40,Hotel Administration
+demographics_major_three,63,Robotics and Intelligent Systems
+demographics_major_three,35,Fine Arts
+demographics_major_three,41,International Relations
+demographics_major_three,12,Biochemistry and Molecular Biology
+demographics_major_three,49,Native American Studies
+demographics_major_two,25,Economics
+demographics_major_two,13,Biological Sciences
+demographics_major_two,28,English
+demographics_major_two,7,Architecture
+demographics_major_two,10,Asian/Mideast Studies
+demographics_major_two,29,Environmental Studies
+demographics_major_two,21,Data Science
+demographics_major_two,27,Engineering Sciences
+demographics_major_two,54,Political Science
+demographics_major_two,4,Animal Science
+demographics_major_two,52,Philosophy
+demographics_major_two,17,Cognitive Science
+demographics_major_two,74,other
+demographics_major_two,50,Neuroscience
+demographics_major_two,26,Education
+demographics_major_two,19,Computer Science
+demographics_major_two,46,Marketing
+demographics_major_two,65,Sociology
+demographics_major_two,22,Development Studies
+demographics_major_two,66,Spanish and Portuguese
+demographics_major_two,3,Agricultural/Food Sciences
+demographics_major_two,47,Mathematics
+demographics_major_two,41,International Relations
+demographics_major_two,14,Business
+demographics_major_two,32,Fashion
+demographics_major_two,56,Pre-Medical
+demographics_major_two,12,Biochemistry and Molecular Biology
+demographics_major_two,57,Psychological and Brain Sciences
+demographics_major_two,5,Anthropology
+demographics_major_two,35,Fine Arts
+demographics_major_two,67,Statistics
+demographics_major_two,2,African/Afr-American Studies
+demographics_major_two,15,Chemistry
+demographics_major_two,6,Archaeology
+demographics_major_two,34,Finance
+demographics_major_two,63,Robotics and Intelligent Systems
+demographics_major_two,72,Visual Arts
+demographics_major_two,16,Classics
+demographics_major_two,58,Public Health
+demographics_major_two,42,Jewish Studies
+demographics_major_two,23,Digital Media Design
+demographics_major_two,73,Women’s and Gender Studies (and Sexuality)
+demographics_major_two,20,Dance
+demographics_major_two,48,Music
+demographics_major_two,18,Communication
+demographics_major_two,33,Film and Media Studies
+demographics_major_two,38,German Studies
+demographics_major_two,11,Physics and Astronomy
+demographics_major_two,53,Physical Education
+demographics_major_two,61,Real Estate
+demographics_major_two,71,Urban Studies
+demographics_major_two,44,Law/Criminology
+demographics_major_two,68,Studio Art
+demographics_major_two,9,Asian/Mideast Lang & Lit
+demographics_major_two,39,History
+demographics_major_two,8,Art History
+demographics_major_two,51,Nursing
+demographics_major_two,24,Earth Sciences
+demographics_major_two,36,French and Italian
+demographics_major_two,64,Russian
+demographics_orientation,5,Asexual or Aromantic
+demographics_orientation,4,pansexual
+demographics_orientation,3,Bisexual
+demographics_orientation,1,heterosexual/straight
+demographics_orientation,10,Unsure
+demographics_orientation,1,Straight (Heterosexual)
+demographics_orientation,9,questioning
+demographics_orientation,3,bisexual
+demographics_orientation,7,Queer
+demographics_orientation,4,Pansexual
+demographics_orientation,5,asexual/aromantic
+demographics_orientation,10,unsure
+demographics_orientation,7,queer
+demographics_orientation,2,Gay/Lesbian
+demographics_orientation,11,other
+demographics_orientation,2,gay/lesbian
+demographics_orientation,9,Questioning
+demographics_orientation,8,Fluid
+demographics_orientation,8,fluid
+demographics_orientation,6,sameGenderLoving
+demographics_orientation,6,Same-gender-loving
+demographics_politicalLeaning,6,weak republican
+demographics_politicalLeaning,1,strong democrat
+demographics_politicalLeaning,2,weak democrat
+demographics_politicalLeaning,3,"independent, lean democrat"
+demographics_politicalLeaning,5,"independent, lean republican"
+demographics_politicalLeaning,7,strong republican
+demographics_politicalLeaning,4,independent
+demographics_politicalLeaning,8,something else
+demographics_religion,9,nothing
+demographics_religion,11,buddhist
+demographics_religion,8,agnostic
+demographics_religion,2,catholic
+demographics_religion,7,atheist
+demographics_religion,13,other
+demographics_religion,3,mormon
+demographics_religion,5,jewish
+demographics_religion,1,protestant
+demographics_religion,10,christian
+demographics_religion,12,hindu
+demographics_religion,6,muslim
+demographics_religion,4,orthodox
+demographics_religion,4,orthodox christian
+demographics_socioeconomicStatus,4,working class
+demographics_socioeconomicStatus,3,middle class
+demographics_socioeconomicStatus,2,upper-middle class
+demographics_socioeconomicStatus,5,lower class
+demographics_socioeconomicStatus,1,upper class
+demographics_voterRegistration,1,"Yes, registered to vote"
+demographics_voterRegistration,2,"No, not registered"
+demographics_firstGen,3,Attended college but did not complete degree
+demographics_firstGen,1,Did not finish high school
+demographics_firstGen,2,High school diploma or G.E.D.
+demographics_firstGen,7,Doctoral or professional degree (Ph.D. J.D. M.D. etc.)
+demographics_firstGen,4,Associate’s degree (A.A. A.S. etc.)
+demographics_firstGen,5,Bachelor’s degree (B.A. B.S. etc.)
+demographics_firstGen,6,Master’s degree (M.A. M.S. etc.)
+demographics_raceOne,8,another race
+demographics_raceOne,1,asian
+demographics_raceOne,7,white
+demographics_raceOne,3,hispanic/latino
+demographics_raceOne,2,black or african-american
+demographics_raceOne,5,middle eastern
+demographics_raceOne,4,american indian
+demographics_raceOne,6,native hawaiian
+demographics_raceOne,10,other
+demographics_raceTwo,7,white
+demographics_raceTwo,2,black or african-american
+demographics_raceTwo,3,hispanic/latino
+demographics_raceTwo,4,american indian
+demographics_raceTwo,5,middle eastern
+demographics_raceTwo,6,native hawaiian
+demographics_raceTwo,8,another race
+demographics_raceTwo,10,other
+demographics_raceThree,4,american indian
+demographics_raceThree,7,white
+demographics_raceThree,8,another race
+demographics_raceThree,5,middle eastern
+demographics_raceThree,3,hispanic/latino
+demographics_raceGrouped,8,another race
+demographics_raceGrouped,1,asian
+demographics_raceGrouped,7,white
+demographics_raceGrouped,3,hispanic/latino
+demographics_raceGrouped,8,twoOrMoreRaces
+demographics_raceGrouped,2,black or african-american
+demographics_raceGrouped,4,american indian
+demographics_raceGrouped,5,middle eastern
+demographics_raceGrouped,6,native hawaiian
+demographics_raceGrouped,10,other
+Q3.2,2,Somewhat interested
+Q3.2,3,Not too interested
+Q3.2,1,Very interested
+Q4.1,1,<1 year
+Q4.1,2,1-3 years
+Q4.1,3,>3 years
+Q4.2_1,1,Salary-based compensation: How much money you make matters.
+Q4.2_2,1,"Non-salary benefits: Health insurance, paid time off, etc."
+Q4.2_3,1,Clear career path: Knowing where your job can lead you.
+Q4.2_4,1,Professional training and development: Learning and growing at what you do.
+Q4.2_5,1,Potential for travel: Exploring new places through your job.
+Q4.2_6,1,"Company’s commitment to Diversity, Equity, & Inclusion: Diverse representation in workforce, treating everyone fairly, etc."
+Q4.2_7,1,Different tasks: Doing a variety of tasks.
+Q4.2_8,1,Making a difference: Having a positive impact on the world.
+Q4.2_9,1,Flexible work options: Having a choice to work remote/hybrid.
+Q4.2_10,1,"Company reputation: Positive image of the company, its products and/or services"
+Q4.2_11,1,Other (please specify)
+Q4.4_1,1,Performance-related bonus
+Q4.4_2,1,Retirement plan
+Q4.4_3,1,Stock options
+Q4.4_4,1,Health insurance
+Q4.4_5,1,"Wellbeing initiatives (e.g., mental health resources, access to fitness programs, etc.)"
+Q4.4_6,1,Financial support for education
+Q4.4_7,1,Sabbatical opportunities
+Q4.4_8,1,Maternity/paternity leave
+Q4.4_9,1,"Paid time off, including annual vacation"
+Q4.4_10,1,Other (please specify)
+Q4.5,3,"Flexible hybrid (i.e., mix of in-person and remote, and you can choose how many days you are in person)"
+Q4.5,1,"100% Remote (i.e., you do not go into an office and can work from your own local setup e.g., at home)"
+Q4.5,2,"100% In-person (i.e., work together with your colleagues at the same location e.g., office)"
+Q4.5,4,"Hybrid (i.e., mix of in-person and remote with 2-3 days/week in-person)"
+Q4.7_1,1,I want to be close to family and friends.
+Q4.7_2,1,"I want lower cost of living (e.g., affordable housing)"
+Q4.7_3,1,"I want to be near green spaces for outdoor activities, better health, etc."
+Q4.7_4,1,I want to be in/close to a city with several job opportunities.
+Q4.7_5,1,"I want to be in/close to a major city for other benefits (e.g., exposure to different cultures, entertainment options I want to avoid long commute to work i.e., more than 30 minutes one way)"
+Q4.7_6,1,I do not care where the job is located.
+Q4.7_7,1,Other (please specify)
+Q4.8_1,1,Regular 1:1 meetings to get to know me
+Q4.8_2,1,Develops my skills and provides coaching
+Q4.8_3,1,Acts as a role model that I can trust
+Q4.8_4,1,"Maintains psychological safety within the team (i.e., safe space to speak up without negative consequences)"
+Q4.8_5,1,Challenges me to improve my performance
+Q4.8_6,1,Motivates me to work towards a vision
+Q4.8_7,1,Is curious to understand others’ perspective
+Q4.8_8,1,Other (please specify)
+Q4.9_1,1,"Fostering a positive work culture: Ensuring diversity in workforce, equal opportunities for growth, creating inclusive environments"
+Q4.9_2,1,Supporting education and leadership development: Providing structured training and professional development resources to create equal opportunities for growth
+Q4.9_3,1,"Helping the community: Improving access to medicine, developing patient health literacy, supporting STEM education for underrepresented communities"
+Q4.9_4,1,"Innovating inclusively: R&D with inclusive sample populations to avoid bias, pursuing research to treat conditions prevalent in underserved patients"
+Q4.9_5,1,DEI initiatives in my workplace are not important to me
+Q4.9_6,1,Other (please specify)
+Q4.10_1,1,Strongly agree
+Q4.10_1,3,Neither agree nor disagree
+Q4.10_1,2,Somewhat agree
+Q4.10_1,4,Somewhat disagree
+Q4.10_1,5,Strongly disagree
+Q4.10_2,1,Strongly agree
+Q4.10_2,3,Neither agree nor disagree
+Q4.10_2,5,Strongly disagree
+Q4.10_2,2,Somewhat agree
+Q4.10_2,4,Somewhat disagree
+Q4.10_3,2,Somewhat agree
+Q4.10_3,1,Strongly agree
+Q4.10_3,3,Neither agree nor disagree
+Q4.10_3,5,Strongly disagree
+Q4.10_3,4,Somewhat disagree
+Q5.1_1,1,Burnout
+Q5.1_2,1,Layoffs
+Q5.1_3,1,Lack of recognition at company
+Q5.1_4,1,Lack of mobility within the industry
+Q5.1_5,1,"Salary plateau (i.e., stagnating total compensation)"
+Q5.1_6,1,"Life changes (e.g., having a child, moving cities)"
+Q5.1_7,1,"Ethical dilemmas (e.g., colleague undermining another’s work, unfair treatment) based on gender"
+Q5.1_8,1,Lack of purpose or personal impact
+Q5.1_9,1,Other (please specify)
+Q5.2_1,1,Compromising on physical/mental health
+Q5.2_2,1,Lack of work life balance
+Q5.2_3,1,"Microaggressions at work (e.g., derogatory comments)"
+Q5.2_4,1,"Inauthenticity at work (e.g., unable to be my full self in the workplace)"
+Q5.2_5,1,Lack of support from leadership
+Q5.2_6,1,My opinions are disregarded
+Q5.2_7,1,Other (please specify)
+Q6.1,1,"No knowledge – I am unaware of the basic concepts, key organizations, and trends in the industry."
+Q6.1,2,Basic knowledge – I am familiar with the fundamental concepts and some key organizations in the industry.
+Q6.1,3,"Intermediate knowledge – I understand the industry dynamics, key organizations, trends, and can discuss industry-specific topics."
+Q6.1,4,"Advanced knowledge – I have in-depth understanding of the industry, including challenges and opportunities, and can provide insights and analysis."
+Q6.2,2,Basic knowledge - I am familiar with some of the key roles from coursework and introductory level research.
+Q6.2,1,No knowledge – I am unaware of different roles and responsibilities within the industry.
+Q6.2,3,"Intermediate knowledge - I understand a variety of roles and their responsibilities from internships, projects, and advanced coursework"
+Q6.2,4,Advanced knowledge – I have a deep understanding of various roles and their responsibilities. I understand the skills required from practical experience and extensive research.
+Q6.3_1,1,Pursuit of innovation
+Q6.3_2,1,Working with cutting-edge technology
+Q6.3_3,1,Variety of career options
+Q6.3_4,1,Positive impact in the world
+Q6.3_5,1,I live near biotech companies
+Q6.3_6,1,Interdisciplinary work
+Q6.3_7,1,Not sure
+Q6.3_8,1,Other (Please specify)
+Q6.4,2,"Manufacturing, incl. QA/QC"
+Q6.4,1,Research & Development
+Q6.4,9,Not sure
+Q6.4,6,Human Resources
+Q6.4,3,Data science
+Q6.4,5,Marketing
+Q6.4,7,Finance
+Q6.4,10,Other (please specify)
+Q6.4,8,Legal
+Q6.4,4,Sales

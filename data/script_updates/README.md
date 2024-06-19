@@ -1,0 +1,3 @@
+- V1 are original files from Terren
+- V2 are files sent AFTER live session
+- V3 are files for most recent script update request June 18 2024
