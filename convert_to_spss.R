@@ -80,8 +80,8 @@ get_value_labels <- function(data_dict) {
 }
 
 # Function to add value labels to the data
-add_value_labels <- function(data, data_dict_path) {
-    value_labels <- get_value_labels(data_dict_path)
+add_value_labels <- function(data, data_dict) {
+    value_labels <- get_value_labels(data_dict)
     for(var in names(value_labels)) {
         # Convert the list of labels to a named vector
         labels_vector <- value_labels[[var]]
